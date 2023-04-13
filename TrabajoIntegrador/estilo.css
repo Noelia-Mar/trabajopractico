@@ -1,0 +1,71 @@
+
+
+.header {
+    margin: 0;
+    background-color: pink;
+    color: rgb(119, 115, 115);
+    min-height: 100px;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+}
+
+.container {
+    padding: 1em; 
+    overflow: hidden;
+    margin: auto;   
+}
+.icono {
+    margin: 1em;
+    padding: 1em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.direccion {
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    letter-spacing: 15px;
+    font-family: "cookie", cursive;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav a {
+    font-weight: 600;
+    padding-right: 20px;
+    font-size: 2rem;
+    color: rgb(119, 115, 115);
+    text-decoration: none;
+    justify-content: space-between;
+    
+
+}
+nav a:hover{
+    color: aliceblue;
+
+}
+@media (max-width:700px) 
+
+
+
+    
+
