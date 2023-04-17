@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../noelia/tputn"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TrabajoIntegrador"
+	}
+}

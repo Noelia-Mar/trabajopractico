@@ -1,0 +1,135 @@
+body {
+    background-color: #FAEBD7;
+}
+.header {
+    border: 10px  pink  solid;
+    margin: 20px;
+    background-color: pink;
+    color: rgb(119, 115, 115);
+    min-height: 100px;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+}
+
+.container {
+    border: 10px  rgb(119, 115, 115)solid;
+    padding: 1em; 
+    overflow: hidden;
+    margin: auto;   
+}
+.icono {
+    margin: 1em;
+    padding: 1em;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.direccion {
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    letter-spacing: 15px;
+    font-family: "cookie", cursive;
+    font-size: 8rem;
+    text-align: center;
+    margin: 100px 350px 10px 350px;
+
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 200px;
+
+}
+
+nav {
+    font-size: 2rem; 
+    transition: all 0.7s;
+    display: row;
+    text-align: center;
+    
+}
+a {
+    transition: all 0.7s;
+    color: rgb(119, 115, 115);
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+nav a:hover{
+    color: aliceblue;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+IMG{
+    width: 100%;
+}
+.galeria {
+    display:flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.columna {
+    flex: 15%;
+    padding: 10px;
+
+}
+.columna IMG{
+    margin-top: 10px;
+
+}
+@media (max-width: 700px){
+    .columna {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .columna {
+        flex: 100%;
+    }
+    
+}
+footer {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: pink;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+
+
+
+
+    
+
+    
+    
+

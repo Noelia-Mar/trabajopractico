@@ -1,7 +1,6 @@
 body {
     background-color: #FAEBD7;
 }
-
 .header {
     border: 10px  pink  solid;
     margin: 20px;
@@ -70,30 +69,6 @@ nav a:hover{
     color: aliceblue;
 
 }
-.imagen {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-
-}
-IMG {
-    border-radius: 20px; 
-    border: 5px solid pink;
-   
-    
-}
-.foto {
-    display: row;
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-  font-size: 50px;
-  text-align: center; 
-  color: rgb(119, 115, 115);
-}
-
 footer {
     background-color: pink;
     display: flex;
@@ -106,10 +81,3 @@ aside {
     display: flex;
     justify-content:center;
     align-items: center;
-}
-
-
-
-
-    
-
